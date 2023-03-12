@@ -1,6 +1,7 @@
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Car } from './entity/Car';
 import { config } from 'dotenv';
+
 config();
 
 export const dbConfig = TypeOrmModule.forRoot({

@@ -1,7 +1,7 @@
 import { colors } from '../../theme/colors';
 
 export const allCars = {
-  background: colors.bgBlack,
+  background: colors.lightGrey,
 };
 export const allCarsH1 = {
   color: colors.lightGrey,
